@@ -1,4 +1,5 @@
 # vue-sticky-scroll
+## SAD FACE :( sticky-scroll is broken. sorry!
 ## a vue.js directive that keeps an element scrolled to the bottom
 
 
