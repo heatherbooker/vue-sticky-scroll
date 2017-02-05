@@ -1,18 +1,15 @@
 # vue-sticky-scroll
-## SAD FACE :( sticky-scroll is broken. sorry!
+#### update: this directive is for vue 1.x. a vue 2.0 compatible version is available by theomessin [here](https://github.com/theomessin/vue-chat-scroll).  
 ## a vue.js directive that keeps an element scrolled to the bottom
 
 
-vue-sticky-scroll keeps an eye on your element and whenever content is added inside of it, it scrolls down so that the viewer can remain focused on the newest content!
+vue-sticky-scroll keeps an eye on your element and whenever content is added inside of it, it scrolls down so that the viewer can remain focused on the newest content!  
 
-[view live demo on jsfiddle](https://jsfiddle.net/heatherbooker/13uf74vh/)
 
-__IMPORTANT: vue-sticky-scroll was developed for Vue 1.x, not 2.0. Please see [this issue](https://github.com/heatherbooker/vue-sticky-scroll/issues/2) for tips on fixing any problems you might have if trying to use it with Vue 2.0 until it is fixed. Thanks!__  
+### install  
 
-### install / include
-
-NPM:
-
+NPM:  
+note: vue-sticky-scroll requires vue 1.x; check your version by running `npm list vue`; a 2.0 compatible version is available [here](https://github.com/theomessin/vue-chat-scroll)  
 ```bash
 npm i --save vue-sticky-scroll
 ```
@@ -23,14 +20,6 @@ Require it in your vue.js component file:
 var stickyScroll = require('vue-sticky-scroll');
 // ES6
 import 'vue-sticky-scroll';
-```
-
-CDN:
-
-Include it in your main html file:
-
-```html
-<script src='https://cdn.rawgit.com/heatherbooker/vue-sticky-scroll/master/stickyScroll.js'></script>
 ```
 
 ### usage instructions  
